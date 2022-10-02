@@ -1,11 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 
-// require('@nomiclabs/hardhat-waffle');
-require("dotenv").config({ path: "../../.env" });
-
-// require('hardhat-deploy');
-// require('@nomiclabs/hardhat-ethers');
-// require('@nomiclabs/hardhat-etherscan');
+require("dotenv").config({ path: ".env" });
 
 const defaultNetwork = "localhost";
 
@@ -32,7 +27,7 @@ module.exports = {
   networks: {
     localhost: {
       chainId: 31337
-    }
+    },
 
     /////////
     // L1 NETWORKS
@@ -40,17 +35,17 @@ module.exports = {
 
     // mainnet: {
     //   chainId: 1,
-    //   url: `{process.env.NEXT_PUBLIC_QUICKNODE_MAINNET}`,
+    //   url: `{process.env.QUICKNODE_API_KEY_MAINNET}`,
     //   accounts: [`${process.env.PRIVATE_KEY}`],
     // },
 
     // L1 TEST NETWORKS
 
-    // goerli: {
-    //   chainId: 5,
-    //   url: `${process.env.NEXT_PUBLIC_QUICKNODE_GOERLI}`,
-    //   accounts: [`${process.env.PRIVATE_KEY}`],
-    // },
+    goerli: {
+      chainId: 5,
+      url: `${process.env.QUICKNODE_API_KEY_GOERLI}`,
+      accounts: [`${process.env.PRIVATE_KEY}`]
+    }
 
     /////////
     // L2 NETWORKS
@@ -58,7 +53,7 @@ module.exports = {
 
     // polygon: {
     //   chainId: 137,
-    //   url: `{process.env.NEXT_PUBLIC_QUICKNODE_POLYGON}`,
+    //   url: `{process.env.QUICKNODE_API_KEY_GOERLI_POLYGON}`,
     //   accounts: [`${process.env.PRIVATE_KEY}`],
     // },
 
@@ -66,7 +61,7 @@ module.exports = {
 
     // mumbai: {
     //   chainId: 80001,
-    //   url: `${process.env.NEXT_PUBLIC_QUICKNODE_MUMBAI}`,
+    //   url: `${process.env.QUICKNODE_API_KEY_MUMBAI}`,
     //   accounts: [`${process.env.PRIVATE_KEY}`],
     // },
   },
