@@ -4,16 +4,18 @@ This repository is for a Balls of Art workshop.
 
 ## Outline
 
-* [What We Are Going to Create](#what-we-are-going-to-create)
-  * [OpenSea NFT Collection Based on Workshop Code](#opensea-nft-collection-based-on-workshop-code)
-  * [SVG Resources](#svg-resources)
-* [Getting Started](#getting-started)
-  * [Environment Variables for APIs](#environment-variables-for-apis)
-* [Development](#development)
-  * [Compile Contract](#compile-contract)
-  * [Deploy to Local Blockchain](#deploy-to-local-blockchain)
-  * [Deploy to Goerli](#deploy-to-goerli)
-* [Next Steps](#next-steps)
+- [Balls of Art Workshop](#balls-of-art-workshop)
+  - [Outline](#outline)
+  - [What We Are Going to Create](#what-we-are-going-to-create)
+    - [OpenSea NFT Collection Based on Workshop Code](#opensea-nft-collection-based-on-workshop-code)
+    - [SVG Resources](#svg-resources)
+  - [Getting Started](#getting-started)
+    - [Environment Variables for APIs](#environment-variables-for-apis)
+  - [Development](#development)
+    - [Compile Contract](#compile-contract)
+    - [Deploy to Local Blockchain](#deploy-to-local-blockchain)
+    - [Deploy to Goerli](#deploy-to-goerli)
+  - [Next Steps](#next-steps)
 
 ## What We Are Going to Create
 
@@ -59,9 +61,9 @@ Visit https://testnets.opensea.io/collection/the-balls-of-art.
 ### SVG Resources
 
 - Beginner tutorial:
-[HTML SVG Graphics](https://www.w3schools.com/html/html5_svg.asp) at W3Schools
+  [HTML SVG Graphics](https://www.w3schools.com/html/html5_svg.asp) at W3Schools
 - Intermediate:
-[SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) at Mozilla Developer Network
+  [SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) at Mozilla Developer Network
 
 ## Getting Started
 
@@ -137,6 +139,7 @@ This is only the first step, meant to show how to play with SVGs, add randomizat
 
 - Create a more complex art structure
 - Take input from the user to create art with input as part of the equation (number of rows? different shapes? favorite color? emoji to insert into the NFT?)
+- Add _true_ randomization (e.g., with [Chainlink VRF](https://chain.link/vrf), Provably Fair Random Number Generator)
 - Learn more complex SVG
 - Add more animation
 - Create a front-end and an engaging minting page and process
