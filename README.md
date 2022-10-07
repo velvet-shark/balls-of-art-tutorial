@@ -10,7 +10,7 @@ Balls of Art is an NFT collection that should serve as a basis to learn SVG-base
 
 - How to structure an NFT project
 - How to optimize for gas
-- How (pseudo) randomness works and how to create it without using oracles
+- How to (pseudo) randomize
 - How to draw simple SVGs
 - How to start playing with SVG animation
 - How to create a very simple generative art with all of the above.
@@ -34,6 +34,14 @@ Preferably, also `ETHERSCAN_API_KEY`.
 For QuickNode API, register for a free account at https://www.quicknode.com/ and select a Goerli Testnet endpoint.
 
 For Etherscan API, register at https://etherscan.io/register, then go to https://etherscan.io/myapikey and create a free API key.
+
+## SVG resources
+
+Beginner tutorial:
+![HTML SVG Graphics](https://www.w3schools.com/html/html5_svg.asp) at W3Schools
+
+Intermediate:
+![SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) at Mozilla Developer Network
 
 ## Getting Started
 
@@ -72,3 +80,20 @@ When developing locally, deploy to localhost
 ```shell
 yarn hardhat run scripts/deploy.js --network localhost
 ```
+
+## Next steps
+
+This is only the first step, meant to show how to play with SVGs, add randomization, start creating on-chain NFTs.
+
+Things you can do next:
+
+- Create a more complex art structure
+- Take input from the user to create art with input as part of the equation (number of rows? different shapes? favorite color? emoji to insert into the NFT?)
+- Learn more complex SVG
+- Add more animation
+- Create a front-end and an engaging minting page and process
+- Create more art
+
+Let me know what you have created. I'd love to see it!
+
+You can find me on Twitter ![@velvet_shark](https://twitter.com/velvet_shark)
