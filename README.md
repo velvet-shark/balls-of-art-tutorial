@@ -2,6 +2,8 @@
 
 This repository is for a Balls of Art workshop.
 
+## What we're going to create
+
 ![Balls of Art](img/balls-of-art-thumb.png?raw=true "Balls of Art")
 
 Balls of Art is an NFT collection that should serve as a basis to learn SVG-based, fully on-chain NFTs, and as a first step to start creating your own generative art NFTs. It shows in a clear, high-quality, yet simple way:
@@ -12,6 +14,16 @@ Balls of Art is an NFT collection that should serve as a basis to learn SVG-base
 - How to draw simple SVGs
 - How to start playing with SVG animation
 - How to create a very simple generative art with all of the above.
+
+Elements that will be randomized:
+
+![Balls of Art](img/balls-of-art-randomizations.png?raw=true "Balls of Art randomizations")
+
+## OpenSea NFT collection based on the code from this workshop
+
+https://testnets.opensea.io/collection/the-balls-of-art
+
+![Balls of Art](img/balls-of-art-opensea.png?raw=true "Balls of Art on OpenSea")
 
 ## APIs
 
@@ -35,6 +47,9 @@ Install
 
 ```shell
 cd balls-of-art-tutorial
+```
+
+```shell
 yarn
 ```
 
