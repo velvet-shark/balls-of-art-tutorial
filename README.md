@@ -38,10 +38,10 @@ For Etherscan API, register at https://etherscan.io/register, then go to https:/
 ## SVG resources
 
 Beginner tutorial:
-![HTML SVG Graphics](https://www.w3schools.com/html/html5_svg.asp) at W3Schools
+[HTML SVG Graphics](https://www.w3schools.com/html/html5_svg.asp) at W3Schools
 
 Intermediate:
-![SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) at Mozilla Developer Network
+[SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) at Mozilla Developer Network
 
 ## Getting Started
 
@@ -96,4 +96,4 @@ Things you can do next:
 
 Let me know what you have created. I'd love to see it!
 
-You can find me on Twitter ![@velvet_shark](https://twitter.com/velvet_shark)
+You can find me on Twitter [@velvet_shark](https://twitter.com/velvet_shark)
