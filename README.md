@@ -15,6 +15,7 @@ This repository is for a Balls of Art workshop.
     - [Compile Contract](#compile-contract)
     - [Deploy to Local Blockchain](#deploy-to-local-blockchain)
     - [Deploy to Goerli](#deploy-to-goerli)
+  - [Resources](#resources)
   - [Next Steps](#next-steps)
 
 ## What We Are Going to Create
@@ -30,7 +31,6 @@ This repository is for a Balls of Art workshop.
 Balls of Art is an NFT collection that should serve as a basis to learn SVG-based, fully on-chain NFTs, and as a first step to start creating your own generative art NFTs. It shows in a clear, high-quality, yet simple way:
 
 - How to structure an NFT project
-- How to optimize for gas
 - How to (pseudo) randomize
 - How to draw simple SVGs
 - How to start playing with SVG animation
@@ -132,6 +132,11 @@ Then run the `deploy.js` script with `goerli` passed to the `--network` flag:
 ```shell
 yarn hardhat run scripts/deploy.js --network goerli
 ```
+
+## Resources
+
+[How to Write a Good NFT Smart Contract (a written guide)](https://www.quicknode.com/guides/smart-contract-development/how-to-write-good-nft-smart-contract) - a 73-point checklist to run your NFT smart contract against. A set of best practices when writing NFT contracts on Ethereum.
+[How to Write a Good NFT Smart Contract (YouTube video)](https://youtu.be/EOERNZRPbos) - same as above, but in a 4-part video [(Part 1)](https://youtu.be/EOERNZRPbos), [(Part 2)](https://youtu.be/st_3dXblpvQ), [(Part 3)](https://youtu.be/zpU6Dcw1Sq4), [(Part 4)](https://youtu.be/YVsIUYAnQlg)
 
 ## Next Steps
 

@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 import "hardhat/console.sol";
 
-contract BallsOfArt is ERC721, Ownable {
+contract BallsOfArtScaffold is ERC721, Ownable {
     // Structs
     // struct Ball {
     //     // Ball parameters
@@ -19,6 +19,8 @@ contract BallsOfArt is ERC721, Ownable {
     // uint constant maxSupply = XXX; // max number of tokens
     // uint public totalSupply = XXX; // number of tokens minted
     // uint public mintPrice = XXX ether;
+
+    // Mapping to store SVG code for each token
 
     // Events
 
@@ -55,6 +57,9 @@ contract BallsOfArt is ERC721, Ownable {
 
     // Mint new Balls of Art
     // function mintBallsOfArt() {}
+
+    // Withdraw funds from the contract
+    // function withdraw() {}
 
     // From: https://stackoverflow.com/a/65707309/11969592
     function uint2str(uint _i)
