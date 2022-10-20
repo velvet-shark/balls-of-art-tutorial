@@ -142,6 +142,7 @@ npx hardhat verify --network goerli "CONTRACT_ADDRESS"
 ## Resources
 
 [How to Write a Good NFT Smart Contract (a written guide)](https://www.quicknode.com/guides/smart-contract-development/how-to-write-good-nft-smart-contract) - a 73-point checklist to run your NFT smart contract against. A set of best practices when writing NFT contracts on Ethereum.
+
 [How to Write a Good NFT Smart Contract (YouTube video)](https://youtu.be/EOERNZRPbos) - same as above, but in a 4-part video [(Part 1)](https://youtu.be/EOERNZRPbos), [(Part 2)](https://youtu.be/st_3dXblpvQ), [(Part 3)](https://youtu.be/zpU6Dcw1Sq4), [(Part 4)](https://youtu.be/YVsIUYAnQlg)
 
 ## Next Steps
