@@ -133,6 +133,12 @@ Then run the `deploy.js` script with `goerli` passed to the `--network` flag:
 yarn hardhat run scripts/deploy.js --network goerli
 ```
 
+Verify the contract on Etherscan:
+
+```shell
+npx hardhat verify --network goerli "CONTRACT_ADDRESS"
+```
+
 ## Resources
 
 [How to Write a Good NFT Smart Contract (a written guide)](https://www.quicknode.com/guides/smart-contract-development/how-to-write-good-nft-smart-contract) - a 73-point checklist to run your NFT smart contract against. A set of best practices when writing NFT contracts on Ethereum.
