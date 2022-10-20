@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 import "hardhat/console.sol";
 
-contract BallsOfArtScaffold is ERC721, Ownable {
+contract BallsOfArt is ERC721, Ownable {
     // Structs
     // struct Ball {
     //     // Ball parameters
