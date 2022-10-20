@@ -27,7 +27,7 @@ module.exports = {
   networks: {
     localhost: {
       chainId: 31337
-    },
+    }
 
     /////////
     // L1 NETWORKS
@@ -41,11 +41,11 @@ module.exports = {
 
     // L1 TEST NETWORKS
 
-    goerli: {
-      chainId: 5,
-      url: `${process.env.QUICKNODE_API_KEY_GOERLI}`,
-      accounts: [`${process.env.PRIVATE_KEY}`]
-    }
+    // goerli: {
+    //   chainId: 5,
+    //   url: `${process.env.QUICKNODE_API_KEY_GOERLI}`,
+    //   accounts: [`${process.env.PRIVATE_KEY}`]
+    // }
 
     /////////
     // L2 NETWORKS
